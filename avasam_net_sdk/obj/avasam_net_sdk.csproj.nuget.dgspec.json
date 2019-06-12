@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Bhaveshs\\Git\\AvasamSDK\\avasam_net_sdk\\avasam_net_sdk.csproj": {}
+  },
+  "projects": {
+    "D:\\Bhaveshs\\Git\\AvasamSDK\\avasam_net_sdk\\avasam_net_sdk.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bhaveshs\\Git\\AvasamSDK\\avasam_net_sdk\\avasam_net_sdk.csproj",
+        "projectName": "avasam_net_sdk",
+        "projectPath": "D:\\Bhaveshs\\Git\\AvasamSDK\\avasam_net_sdk\\avasam_net_sdk.csproj",
+        "packagesPath": "C:\\Users\\bhaveshs.EBG\\.nuget\\packages\\",
+        "outputPath": "D:\\Bhaveshs\\Git\\AvasamSDK\\avasam_net_sdk\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bhaveshs.EBG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

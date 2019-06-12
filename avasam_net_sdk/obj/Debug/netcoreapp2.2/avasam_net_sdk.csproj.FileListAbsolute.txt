@@ -1,0 +1,17 @@
+D:\Bhaveshs\git2\avasam_net_sdk\avasam_net_sdk\avasam_net_sdk\bin\Debug\netcoreapp2.2\avasam_net_sdk.deps.json
+D:\Bhaveshs\git2\avasam_net_sdk\avasam_net_sdk\avasam_net_sdk\bin\Debug\netcoreapp2.2\avasam_net_sdk.runtimeconfig.json
+D:\Bhaveshs\git2\avasam_net_sdk\avasam_net_sdk\avasam_net_sdk\bin\Debug\netcoreapp2.2\avasam_net_sdk.runtimeconfig.dev.json
+D:\Bhaveshs\git2\avasam_net_sdk\avasam_net_sdk\avasam_net_sdk\bin\Debug\netcoreapp2.2\avasam_net_sdk.dll
+D:\Bhaveshs\git2\avasam_net_sdk\avasam_net_sdk\avasam_net_sdk\obj\Debug\netcoreapp2.2\avasam_net_sdk.csprojAssemblyReference.cache
+D:\Bhaveshs\git2\avasam_net_sdk\avasam_net_sdk\avasam_net_sdk\obj\Debug\netcoreapp2.2\avasam_net_sdk.csproj.CoreCompileInputs.cache
+D:\Bhaveshs\git2\avasam_net_sdk\avasam_net_sdk\avasam_net_sdk\obj\Debug\netcoreapp2.2\avasam_net_sdk.AssemblyInfoInputs.cache
+D:\Bhaveshs\git2\avasam_net_sdk\avasam_net_sdk\avasam_net_sdk\obj\Debug\netcoreapp2.2\avasam_net_sdk.AssemblyInfo.cs
+D:\Bhaveshs\git2\avasam_net_sdk\avasam_net_sdk\avasam_net_sdk\bin\Debug\netcoreapp2.2\avasam_net_sdk.pdb
+D:\Bhaveshs\git2\avasam_net_sdk\avasam_net_sdk\avasam_net_sdk\obj\Debug\netcoreapp2.2\avasam_net_sdk.dll
+D:\Bhaveshs\git2\avasam_net_sdk\avasam_net_sdk\avasam_net_sdk\obj\Debug\netcoreapp2.2\avasam_net_sdk.pdb
+E:\AvasamSDK\avasam_net_sdk\obj\Debug\netcoreapp2.2\avasam_net_sdk.csprojAssemblyReference.cache
+E:\AvasamSDK\avasam_net_sdk\obj\Debug\netcoreapp2.2\avasam_net_sdk.csproj.CoreCompileInputs.cache
+E:\AvasamSDK\avasam_net_sdk\obj\Debug\netcoreapp2.2\avasam_net_sdk.AssemblyInfoInputs.cache
+E:\AvasamSDK\avasam_net_sdk\obj\Debug\netcoreapp2.2\avasam_net_sdk.AssemblyInfo.cs
+E:\AvasamSDK\avasam_net_sdk\obj\Debug\netcoreapp2.2\avasam_net_sdk.dll
+E:\AvasamSDK\avasam_net_sdk\obj\Debug\netcoreapp2.2\avasam_net_sdk.pdb
