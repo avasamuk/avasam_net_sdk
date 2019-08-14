@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
@@ -76,6 +76,16 @@ namespace avasam_net_sdk.Models.Classes
                Vat = value.Vat,
                _id = value._id
             }).ToJson());
+        }
+
+        /// <summary>
+        /// Bulk Import Product (Maximum 100 per request)
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
+        public async Task<UpdateResp> BulkProductImport(List<ProductModel> value)
+        {
+            return await Post<UpdateResp>("api/Products/BulkProductImport", (value).ToJson());
         }
     }
 }
