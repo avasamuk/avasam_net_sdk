@@ -79,13 +79,33 @@ namespace avasam_net_sdk.Models.Classes
         }
 
         /// <summary>
-        /// Bulk Import Product (Maximum 100 per request)
+        /// Bulk Import Product (Maximum 100 items per request)
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>
-        public async Task<UpdateResp> BulkProductImport(List<ProductModel> value)
+        public async Task<Dictionary<string, string>> BulkProductImport(List<ProductModel> value)
         {
-            return await Post<UpdateResp>("api/Products/BulkProductImport", (value).ToJson());
+            return await Post<Dictionary<string, string>>("api/Products/BulkProductImport", (value).ToJson());
+        }
+
+        /// <summary>
+        /// Bulk Price Update (Maximum 100 items per request)
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
+        public async Task<Dictionary<string, string>> PriceUpdate(List<PriceUpdate> value)
+        {
+            return await Post<Dictionary<string, string>>("api/Products/PriceUpdate", (value).ToJson());
+        }
+
+        /// <summary>
+        /// Bulk stock Update (Maximum 100 items per request)
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
+        public async Task<Dictionary<string, string>> StockUpdate(List<StockUpdate> value)
+        {
+            return await Post<Dictionary<string, string>>("api/Products/StockUpdate", (value).ToJson());
         }
     }
 }
