@@ -12,9 +12,9 @@ namespace avasam_net_sdk.Models.Classes
         }
 
         // Search Order By Order Id
-        public async Task<DropShipperOrders> GetOrders(GetOrdersRequest value)
+        public async Task<List<DropShipperOrders>> GetOrders(GetOrdersRequest value)
         {
-            return await Post<DropShipperOrders>("api/ProductSDK/GetShipperOrderList", (new GetOrdersRequest()
+            return await Post<List<DropShipperOrders>>("api/ProductSDK/GetShipperOrderList", (new GetOrdersRequest()
             {
                 supplier = value.supplier,
                 OrderNumber = value.OrderNumber,
