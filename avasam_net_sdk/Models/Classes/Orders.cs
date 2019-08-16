@@ -15,7 +15,7 @@ namespace avasam_net_sdk.Models.Classes
         // Search Order By Order Id
         public async Task<List<DropShipperOrders>> GetOrders(GetOrdersRequest value)
         {
-            return await Post<List<DropShipperOrders>>("api/SellerOrdersView/SellerGetOrdersListWithFilter", (new SellerGetOrdersListWithFilterRequest()
+            return (await Post<SellerGetOrdersListWithFilterResponse>("api/SellerOrdersView/SellerGetOrdersListWithFilter", (new SellerGetOrdersListWithFilterRequest()
             {
                 Customer = string.IsNullOrWhiteSpace(value.OrderNumber) ? "All" : value.OrderNumber,
                 CustomerId = string.IsNullOrWhiteSpace(value.OrderNumber) ? "All" : value.OrderNumber,
@@ -31,7 +31,7 @@ namespace avasam_net_sdk.Models.Classes
                 customerId = "All",
                 limit = value.limit.ToString(),
                 page = value.page
-            }).ToJson());
+            }).ToJson())).data;
         }
 
         /// <summary>
